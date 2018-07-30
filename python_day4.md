@@ -10,7 +10,7 @@ Ex) not 3%3 —> not 0(false) —> True 이용해서 조건 적용 가능
 
 
 * FILE I/O
-# open().write().close()
+- open().write().close()
 f = open(‘file name’, ‘mode’)   //   ./—>경로지정
 f.close() —> 한 세트
 -mode(w-쓰기(매 순간 파일 업데이트/누적 아님) / r-읽기 / a(append)-추가)
@@ -22,7 +22,7 @@ Read mode
 f.readline(맨 윗줄 하나만 읽음-커서 기준으로 한 줄씩 읽음)
 f.readlines(모든 줄을 읽어냄)—>list로 출력함
 
-# comma spread values
+- comma spread values
 with open(‘file name’, ‘mode’) as f:  —> f=open() f.close()
 
 
