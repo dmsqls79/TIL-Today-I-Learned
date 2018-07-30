@@ -1,6 +1,6 @@
 ## 20180726_Python_day4
 
-* Python 
+### Python 
 0 - false
 1 - true
 Ex) not 3%3 —> not 0(false) —> True 이용해서 조건 적용 가능
@@ -9,7 +9,7 @@ Ex) not 3%3 —> not 0(false) —> True 이용해서 조건 적용 가능
 ‘ ‘ or 1 —> 1
 
 
-* FILE I/O
+### FILE I/O
 - open().write().close()
 f = open(‘file name’, ‘mode’)   //   ./—>경로지정
 f.close() —> 한 세트
@@ -26,15 +26,16 @@ f.readlines(모든 줄을 읽어냄)—>list로 출력함
 with open(‘file name’, ‘mode’) as f:  —> f=open() f.close()
 
 
-* Error handle *
+### Error handling
 try:
     실행문
 except error a 이름:
     실행문
 
-* Git 
 
-—Shell— 
+### Git 
+
+- Shell
 .  현재폴더
 .. 상위폴더
 cd /  경로 이동(change directory)
